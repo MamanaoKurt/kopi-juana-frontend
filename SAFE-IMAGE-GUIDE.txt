@@ -1,0 +1,19 @@
+SAFE IMAGE ADDING GUIDE
+
+Use only café-safe files when adding new gallery images.
+
+Checklist before adding an image:
+1. Use only real shop photos, drinks, pastries, interior, exterior, staff, or customers with permission.
+2. Do not upload sexual, nude, explicit, violent, hateful, illegal, or disturbing images.
+3. Avoid images with strong profanity, offensive signs, or copyrighted posters/logos you do not own.
+4. Keep the same warm and clean style so the gallery stays professional.
+5. Rename new files clearly, such as gallery-1.jpg, gallery-2.jpg, or pastry-new.jpg.
+6. Compress large images before upload so the site stays fast.
+
+How to add more images:
+- Put the new image inside: assets/images/
+- Duplicate one of the existing <img> lines inside the gallery section in index.html
+- Change the file name and alt text
+
+Example:
+<img src="assets/images/gallery-9.jpg" alt="Fresh pastry display at Kopi Juana" />
